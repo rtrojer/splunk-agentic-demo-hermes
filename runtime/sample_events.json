@@ -1,0 +1,38 @@
+[
+  {
+    "time": 1790000000,
+    "host": "auth_server",
+    "source": "auth_app",
+    "sourcetype": "_json",
+    "index": "bank_auth",
+    "event": {
+      "user": "admin",
+      "action": "login",
+      "status": "SUCCESS"
+    }
+  },
+  {
+    "time": 1790000005,
+    "host": "auth_server",
+    "source": "auth_app",
+    "sourcetype": "_json",
+    "index": "bank_auth",
+    "event": {
+      "user": "jsmith",
+      "action": "login",
+      "status": "FAILED"
+    }
+  },
+  {
+    "time": 1790000010,
+    "host": "auth_server",
+    "source": "auth_app",
+    "sourcetype": "_json",
+    "index": "bank_auth",
+    "event": {
+      "user": "jsmith",
+      "action": "login",
+      "status": "FAILED"
+    }
+  }
+]

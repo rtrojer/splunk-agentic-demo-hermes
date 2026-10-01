@@ -1,0 +1,43 @@
+[
+  {
+    "timestamp": "2026-09-22T20:15:00Z",
+    "user": "admin",
+    "src_ip": "192.168.1.105",
+    "action": "login",
+    "status": "FAILED",
+    "reason": "invalid_credentials"
+  },
+  {
+    "timestamp": "2026-09-22T20:15:05Z",
+    "user": "admin",
+    "src_ip": "192.168.1.105",
+    "action": "login",
+    "status": "FAILED",
+    "reason": "invalid_credentials"
+  },
+  {
+    "timestamp": "2026-09-22T20:15:20Z",
+    "user": "admin",
+    "src_ip": "192.168.1.105",
+    "action": "login",
+    "status": "FAILED",
+    "reason": "account_locked"
+  },
+  {
+    "timestamp": "2026-09-22T20:16:01Z",
+    "user": "jsmith",
+    "src_ip": "10.0.4.12",
+    "action": "login",
+    "status": "SUCCESS",
+    "reason": "mfa_authenticated"
+  },
+  {
+    "timestamp": "2026-09-22T20:16:45Z",
+    "user": "ebrown",
+    "src_ip": "10.0.4.18",
+    "action": "login",
+    "status": "SUCCESS",
+    "reason": "password_authenticated"
+  }
+]
+
